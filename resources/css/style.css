@@ -15,6 +15,10 @@ body {
  	margin: 0 auto;
 }
 
+h3 {
+	font-size: 1rem;
+}
+
 /*Navigation*/
 
 nav {
@@ -75,5 +79,70 @@ h1 {
 	line-height: 1.2;
 }
 
+/*Main Content*/
 
+.icon {
+	display: flex;
+	justify-content: center;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	margin: 3rem 3rem;
+	height: 8rem;
+}
+
+.service img {
+	margin-bottom: 1.5rem;
+	width: 5rem;
+}
+
+img.small-image {
+	width: 3.5rem;
+}
+
+.informations {
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	display: inline-block;
+	width: 35%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 4rem;
+}
+
+.fancy {
+	max-width: 10rem;
+	padding: 0.5rem 1.25rem;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	background-color: cadetblue;
+	margin-bottom: 1rem;
+}
+
+/*Footer*/
+
+footer {
+	display: flex;
+	background-color: azure;
+	padding: 4rem;
+	margin-top: 5rem;
+}
+
+.credits {
+	display: flex;
+}
+
+.credits img {
+	height: 1.5rem;
+	margin-right: 1rem;
+}
 
